@@ -5,7 +5,6 @@ int main() {
   
   char answer[128];
   printf("Enter word to guess: ");
-  fflush(stdout);
   scanf(" %s", answer);
 
 
@@ -33,7 +32,6 @@ int main() {
     
     char guess;
     printf("Letter? ");
-    fflush(stdout);
     scanf(" %c", &guess);
 
     
